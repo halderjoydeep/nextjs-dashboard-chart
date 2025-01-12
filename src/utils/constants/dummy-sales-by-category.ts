@@ -1,0 +1,42 @@
+export const DUMMY_SALES_BY_CATEGORY_DATA = [
+  {
+    category: 'clothing',
+    label: 'Clothing',
+    products: 1348,
+    percentage: 25,
+    sales: 3020,
+    fill: 'var(--chart-cyan)',
+  },
+  {
+    category: 'lingerie',
+    label: 'Lingerie & Nightwear',
+    products: 3459,
+    percentage: 2280,
+    sales: 2280,
+    fill: 'var(--chart-blue)',
+  },
+  {
+    category: 'bodyFit',
+    label: 'Body Fit',
+    products: 3459,
+    percentage: 35,
+    sales: 2280,
+    fill: 'var(--chart-yellow)',
+  },
+  {
+    category: 'sportswear',
+    label: 'Sportswear',
+    products: 879,
+    percentage: 23,
+    sales: 2820,
+    fill: 'var(--chart-orange)',
+  },
+  {
+    category: 'accessories',
+    label: 'Accessories',
+    products: 348,
+    percentage: 18,
+    sales: 1224,
+    fill: 'var(--chart-red)',
+  },
+];

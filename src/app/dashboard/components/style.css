@@ -1,0 +1,34 @@
+.top-selling-table {
+  overflow-x: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  border: 1px solid #f1f1f1;
+}
+
+.ant-table-cell {
+  background: #fff !important;
+}
+
+.ant-table-column-sorters {
+  justify-content: initial;
+}
+
+.ant-table-column-title {
+  flex: none !important;
+}
+
+.ant-table-column-sorter {
+  flex: 1;
+}
+
+.ant-table-thead .ant-table-cell {
+  font-size: 10px !important;
+  text-transform: uppercase;
+}
+
+.ant-table-column-sorter-up,
+.ant-table-column-sorter-down {
+  font-size: 10px !important;
+}
